@@ -1,0 +1,66 @@
+##### control (unmutated)
+Ran 12 tests in 9.908s
+OK
+##### M1 collect: cursor never advances
+-            cursor = at + len(t.text)
++            pass
+--- run Collect.test_repeated_word_maps_to_successive_occurrences:
+AssertionError: Lists differ: [(0, 0), (4, 0), (8, 0), (0, 0), (16, 0)] != [(0, 3), (4, 7), (8, 11), (12, 15), (16, 19)]
+Ran 1 test in 0.001s
+FAILED (failures=1)
+##### M2 collect: chunk offset dropped
+-            words.append((at, cursor, offset + t.start_ts, offset + t.end_ts))
++            words.append((at, cursor, t.start_ts, t.end_ts))
+--- run Collect.test_later_chunks_are_offset_by_earlier_audio:
+AssertionError: Lists differ: [(0.0, 0.5), (0.0, 0.5)] != [(0.0, 0.5), (2.0, 2.5)]
+Ran 1 test in 0.001s
+FAILED (failures=1)
+##### M3 synth: speed ignored
+-        return collect(self.pipeline(text, voice=self.voice, speed=speed), text)
++        return collect(self.pipeline(text, voice=self.voice, speed=1.0), text)
+--- run Synthesis.test_speed_shortens_audio:
+AssertionError: 110400 not less than 77280.0
+Ran 1 test in 8.228s
+FAILED (failures=1)
+##### M4 splitter: end-of-sentence lookahead dropped
+-        for m in re.finditer(r"\S.*?(?:[.!?]+[\"”’)\]]*(?=\s|$)|$)", line.group()):
++        for m in re.finditer(r"\S.*?(?:[.!?]+[\"”’)\]]*|$)", line.group()):
+--- run SentenceSpans.test_spans_cover_sentences_in_order:
+AssertionError: Lists differ: ['Fir[59 chars]t a terminator', 'Version 2.', '0 shipped (quoted.)', '"Yes."'] != ['Fir[59 chars]t a terminator', 'Version 2.0 shipped (quoted.)', '"Yes."']
+Ran 1 test in 0.001s
+FAILED (failures=1)
+##### M5 collect: word end uses start
+-            words.append((at, cursor, offset + t.start_ts, offset + t.end_ts))
++            words.append((at, cursor, offset + t.start_ts, offset + t.start_ts))
+--- run Synthesis.test_word_timestamps_are_monotonic_and_cover_the_sentence:
+AssertionError: 0.1 not less than 0.1
+Ran 1 test in 6.267s
+FAILED (failures=1)
+##### M6 locate: silence gap before a chunk ignored
+-        if start is None or t < start:
++        if start is None:
+--- run Locate.test_silence_gap_between_chunks_lights_nothing:
+AssertionError: Tuples differ: (0.5, None) != (1, None)
+Ran 1 test in 0.001s
+FAILED (failures=1)
+##### M7 locate: word time not relative to chunk start
+-            s = (t - start) / Gst.SECOND
++            s = t / Gst.SECOND
+--- run Locate.test_word_is_found_relative_to_its_chunk_start:
+AssertionError: None != (10, 15)
+Ran 1 test in 0.000s
+FAILED (failures=1)
+##### M8 locate: origin ignored
+-    for j in range(origin, len(spans)):
++    for j in range(len(spans)):
+--- run Locate.test_origin_skips_sentences_before_the_seek_point:
+AssertionError: Tuples differ: (0, None) != (1.25, (10, 15))
+Ran 1 test in 0.001s
+FAILED (failures=1)
+##### M9 collect: unmatched token advances the cursor anyway
+-                continue
++                cursor += len(t.text); continue
+--- run Collect.test_unmatched_token_does_not_shift_later_words:
+AssertionError: Lists differ: [(0, 7)] != [(0, 7), (12, 19)]
+Ran 1 test in 0.001s
+FAILED (failures=1)
