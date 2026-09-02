@@ -1,0 +1,72 @@
+{
+ "text": "The quick brown fox jumps over the lazy dog.",
+ "speed": 2.0,
+ "audio_seconds": 1.8,
+ "engine_load_s": 5.718080744030885,
+ "synth_s": 0.5980355719802901,
+ "words": [
+  {
+   "word": "The",
+   "start": 0,
+   "end": 3,
+   "t0": 0.1,
+   "t1": 0.1625
+  },
+  {
+   "word": "quick",
+   "start": 4,
+   "end": 9,
+   "t0": 0.1625,
+   "t1": 0.3125
+  },
+  {
+   "word": "brown",
+   "start": 10,
+   "end": 15,
+   "t0": 0.3125,
+   "t1": 0.4875
+  },
+  {
+   "word": "fox",
+   "start": 16,
+   "end": 19,
+   "t0": 0.4875,
+   "t1": 0.75
+  },
+  {
+   "word": "jumps",
+   "start": 20,
+   "end": 25,
+   "t0": 0.75,
+   "t1": 0.9375
+  },
+  {
+   "word": "over",
+   "start": 26,
+   "end": 30,
+   "t0": 0.9375,
+   "t1": 1.0875
+  },
+  {
+   "word": "the",
+   "start": 31,
+   "end": 34,
+   "t0": 1.0875,
+   "t1": 1.1625
+  },
+  {
+   "word": "lazy",
+   "start": 35,
+   "end": 39,
+   "t0": 1.1625,
+   "t1": 1.3125
+  },
+  {
+   "word": "dog",
+   "start": 40,
+   "end": 43,
+   "t0": 1.3125,
+   "t1": 1.625
+  }
+ ]
+}
