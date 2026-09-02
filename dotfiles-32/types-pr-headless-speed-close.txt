@@ -1,0 +1,11 @@
+engine loaded; failure = None
+after speed change: playing True speed 1.5 pos (1.00729088, None)
+after finish + speed change: pos (0, None) (no exception)
+restarted after finish: playing True speed 2.5 pos (0.40087298245614034, (17, 22))
+before close: pipeline state playing pos (0.40104280701754386, (17, 22)) 
+streams: 36. python3                                                     
+             70. output_FL       > Dummy Output:playback_FL	[active]
+             71. output_FR       > Dummy Output:playback_FR	[active]
+after close: window.player = None visible = False old pipeline state null 
+streams: (none)
+CLOSE-VERIFY OK
