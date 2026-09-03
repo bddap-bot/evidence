@@ -1,0 +1,64 @@
+# BEFORE (origin/master 13a8052), whisper small.en, 140-word passage
+stt/before_s1.0_app.txt: words=140 dropped=1 garbled=6 init_c=1 final_c=6
+stt/before_s1.0_bare.txt: words=140 dropped=1 garbled=5 init_c=0 final_c=5
+stt/before_s1.0_chunks.txt: words=140 dropped=1 garbled=5 init_c=0 final_c=5
+stt/before_s1.5_app.txt: words=140 dropped=0 garbled=41 init_c=26 final_c=29
+stt/before_s1.5_bare.txt: words=140 dropped=0 garbled=29 init_c=13 final_c=22
+stt/before_s1.5_chunks.txt: words=140 dropped=0 garbled=48 init_c=33 final_c=37
+stt/before_s2.0_app.txt: words=140 dropped=0 garbled=68 init_c=45 final_c=55
+stt/before_s2.0_bare.txt: words=140 dropped=0 garbled=53 init_c=42 final_c=41
+stt/before_s2.0_chunks.txt: words=140 dropped=0 garbled=72 init_c=48 final_c=60
+stt/before_s2.5_app.txt: words=140 dropped=1 garbled=76 init_c=56 final_c=65
+stt/before_s2.5_bare.txt: words=140 dropped=0 garbled=77 init_c=58 final_c=59
+stt/before_s2.5_chunks.txt: words=140 dropped=1 garbled=80 init_c=61 final_c=74
+stt/before_s3.0_app.txt: words=140 dropped=1 garbled=87 init_c=69 final_c=78
+stt/before_s3.0_bare.txt: words=140 dropped=1 garbled=75 init_c=49 final_c=58
+stt/before_s3.0_chunks.txt: words=140 dropped=1 garbled=78 init_c=63 final_c=71
+
+# AFTER (branch tts-read-speed 20c72f4)
+stt/after_s1.0_app.txt: words=140 dropped=0 garbled=6 init_c=0 final_c=6
+stt/after_s1.0_bare.txt: words=140 dropped=1 garbled=5 init_c=0 final_c=5
+stt/after_s1.5_app.txt: words=140 dropped=0 garbled=10 init_c=2 final_c=9
+stt/after_s1.5_bare.txt: words=140 dropped=1 garbled=7 init_c=0 final_c=6
+stt/after_s2.0_app.txt: words=140 dropped=0 garbled=13 init_c=2 final_c=10
+stt/after_s2.0_bare.txt: words=140 dropped=0 garbled=13 init_c=2 final_c=10
+stt/after_s2.5_app.txt: words=140 dropped=0 garbled=30 init_c=17 final_c=20
+stt/after_s2.5_bare.txt: words=140 dropped=1 garbled=39 init_c=13 final_c=30
+stt/after_s3.0_app.txt: words=140 dropped=139 garbled=0 init_c=0 final_c=0
+stt/after_s3.0_bare.txt: words=140 dropped=0 garbled=73 init_c=51 final_c=59
+
+# candidates rejected: model-layer phoneme floor (frames)
+stt/floor_s1.5.txt: words=140 dropped=0 garbled=7 init_c=1 final_c=6
+stt/floor_s2.0.txt: words=140 dropped=0 garbled=14 init_c=6 final_c=13
+stt/floor_s2.5.txt: words=140 dropped=0 garbled=14 init_c=7 final_c=14
+stt/floor_s3.0.txt: words=140 dropped=0 garbled=14 init_c=7 final_c=14
+stt/floor2_s2.0.txt: words=140 dropped=0 garbled=20 init_c=9 final_c=17
+stt/floor2_s3.0.txt: words=140 dropped=0 garbled=18 init_c=8 final_c=17
+
+# durations
+before/s1.0_app.wav 64.125000
+before/s1.5_app.wav 41.350000
+before/s2.0_app.wav 35.075000
+before/s2.5_app.wav 32.125000
+before/s3.0_app.wav 30.850000
+after/s1.0_app.wav 63.925000
+after/s1.5_app.wav 43.466667
+after/s2.0_app.wav 32.512500
+after/s2.5_app.wav 26.290000
+after/s3.0_app.wav 22.058333
+before/s1.0_bare.wav 57.550000
+before/s1.5_bare.wav 36.525000
+before/s2.0_bare.wav 31.475000
+before/s2.5_bare.wav 28.975000
+before/s3.0_bare.wav 27.975000
+after/s1.0_bare.wav 57.550000
+after/s1.5_bare.wav 38.366667
+after/s2.0_bare.wav 28.775000
+after/s2.5_bare.wav 23.020000
+after/s3.0_bare.wav 19.183333
+proto/floor_1.5.wav 53.825000
+proto/floor_2.0.wav 52.525000
+proto/floor2_2.0.wav 47.900000
+proto/floor2_3.0.wav 46.500000
+proto/floor_2.5.wav 51.775000
+proto/floor_3.0.wav 51.275000
