@@ -1,0 +1,92 @@
+stt/before_s2.0_app.txt: words=140 dropped=0 garbled=68 init_c=45 final_c=55
+    GARBLE strict ricks
+    GARBLE splintered planks brisk slinner blanks his
+    GARBLE blackened blind
+    GARBLE twelfth streets strengths stretched all three strings strut
+    GARBLE sixths and texts crisp six syntax his
+    GARBLE drenched fishermans drent fairin'
+    GARBLE sculpted all two
+    GARBLE stubborn southern
+    GARBLE prompt on
+    GARBLE skipped lunch blunt splashes skip lunge on slashes
+    GARBLE glass bridge thrifty scribes scratched cramped scrolls lapridge a few scribe scrat cramps rolled
+    GARBLE split flip
+    GARBLE grumpy dwarfs a mead horse
+    GARBLE strand plump saran on
+    GARBLE spruce frantic bruise on a
+    GARBLE flipped crisp flip crust
+    GARBLE shrugged spectral trogg actual
+    GARBLE blanketed blinded
+    GARBLE sprawling rolling
+    GARBLE paths cracked flagstones grim blacksmiths past crack flight zones in blackness
+    GARBLE bronze brown
+    GARBLE cracked crack
+    GARBLE swift trucks screeched past with truck screed path
+    GARBLE slumped dented pumps clasped hands scrubbed lumped denim bumps
+    GARBLE blistered splintered blizzard splinter
+    GARBLE tenths of so
+    GARBLE gaskets gas
+    GARBLE crumpled scripts slipped and we'll script slip
+    GARBLE sprinters printers
+stt/after_s2.0_app.txt: words=140 dropped=0 garbled=13 init_c=2 final_c=10
+    GARBLE splintered splinter
+    GARBLE brisk risk
+    GARBLE twelfth streets twelve three
+    GARBLE sixths six
+    GARBLE clerks clerk
+    GARBLE plump plum
+    GARBLE up at
+    GARBLE clasped classed
+    GARBLE tenths tense
+    GARBLE gaskets splits gasket split
+    GARBLE crumpled crumbled
+stt/before_s3.0_app.txt: words=140 dropped=1 garbled=87 init_c=69 final_c=78
+    GARBLE strict scripts crumbled scripps crumble
+    GARBLE splintered planks brisk slender blade
+    GARBLE struggled struggle
+    GARBLE blackened bricks twelfth streets strengths stretched blind break three strings strut
+    GARBLE sixths six
+    GARBLE texts crisp act
+    GARBLE scraps clung scoffs cling
+    GARBLE drenched fishermans thumbs sculpted glimpses of drent fair in them to glimpse the
+    GARBLE gripped grip
+    DROP prompt 
+    GARBLE stamped stamp
+    GARBLE skipped lunch see a
+    GARBLE splashes slides
+    GARBLE glass bridge thrifty scribes scratched cramped scrolls gusbert fissure scrap cramps roll
+    GARBLE split quills grumpy dwarfs dragged slick one beador strikes
+    GARBLE frozen strand plump fronds
+    GARBLE spruce frantic tricksters flipped turret and tricks just slip
+    GARBLE and shrugged spectral drifts blanketed into it trolldrifts bling did
+    GARBLE cliffs sprawling shrubs choked cliff long strips joke
+    GARBLE stone paths cracked flagstones grim blacksmiths snowmass crack fly out blythemist
+    GARBLE bronze bren
+    GARBLE cracked hammers swift crack hammer if
+    GARBLE screeched screed
+    GARBLE slumped dented pumps clasped hands lump denim bum ten
+    GARBLE blistered splintered blizzards slender
+    GARBLE tenths of strengths the strings
+    GARBLE gaskets splits shrink crumpled scripts slipped gat split string we'll scrip slip
+    GARBLE sprinters clenched fist the printers cleanse it
+stt/after_s2.5_app.txt: words=140 dropped=0 garbled=30 init_c=17 final_c=20
+    GARBLE splintered splinter
+    GARBLE brisk sprinters risk printers
+    GARBLE twelfth streets strengths twelve three strings
+    GARBLE sixths six
+    GARBLE texts crisp shrimp text chris trimmed
+    GARBLE drenched fishermans bench of his
+    GARBLE thrifty grifty
+    GARBLE scratched crashed
+    GARBLE grumpy dwarfs rumpied wharfs
+    GARBLE plump plum
+    GARBLE tricksters tricksers
+    GARBLE crisp chris'
+    GARBLE choked drove
+    GARBLE flagstones legstones
+    GARBLE screeched reached
+    GARBLE clasped hands scrubbed class cans scrub
+    GARBLE tenths tense
+    GARBLE gaskets splits gasket split
+    GARBLE crumpled crumbled
+    GARBLE sprinters splinters
