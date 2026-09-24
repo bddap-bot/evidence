@@ -1,0 +1,10 @@
+Chrome 147 primary selection of the article: 18826 chars, 7 x U+FFFC (6 article images, 1 footer icon)
+'numbers mean more efficient.\n\n￼\n\nThis is a logarithmic graph,'
+'r X-axis numbers are better.\n\n￼\n\nThis is showing us a wide ra'
+'rt, middle, and end of 2025:\n\n￼\n\nThe chart shows models are g'
+'numbers mean more efficient.\n\n￼\n\nvLLM 0.11.1 was released in '
+"LPerf stack from 2.0 to 2.1:\n\n￼\n\nIntel\nThis isn't isolated to"
+"ance on benchmarks (source):\n\n￼\n\nThis means we're going to se"
+'\n￼ Subscribe via RSS\n'
+
+Firefox 150 primary selection of the article: 18917 chars, 0 x U+FFFC
